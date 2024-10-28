@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
+              "Title": "Form1.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "C:\\Users\\MFG-31\\Documents\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\Form1.cs",
               "RelativeDocumentMoniker": "Fingerprint Recognition\\Form1.cs",
-              "ToolTip": "C:\\Users\\MFG-31\\Documents\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\Form1.cs [Design]",
-              "RelativeToolTip": "Fingerprint Recognition\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\MFG-31\\Documents\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "Fingerprint Recognition\\Form1.cs [\u8A2D\u8A08]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T06:05:08.98Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [\u8A2D\u8A08]"
             }
           ]
         }
