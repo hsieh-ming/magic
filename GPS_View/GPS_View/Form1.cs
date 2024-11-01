@@ -6,6 +6,7 @@ namespace GPS_View
     public partial class Form1 : Form
     {
         UART_Driver UART_Driver = new UART_Driver();
+        GPS_Driver GPS_Driver = new GPS_Driver();
         public Form1()
         {
             InitializeComponent();
@@ -29,15 +30,8 @@ namespace GPS_View
 
         private void Connect_button_Click(object sender, EventArgs e)
         {
-            if (UART_Driver.UART_Port.IsOpen)
-            {
-                UART_Driver.Close();
-                Connect_button.Text = "Connect";
-                return;
-            }
-            UART_Driver.Creat(Port_Name_comboBox.SelectedItem.ToString());
-            UART_Driver.Open();
-            Connect_button.Text = "Disconnect";
+            GPS_Driver.Creat(Port_Name_comboBox.SelectedItem.ToString());
+            Connect_button.Text = GPS_Driver.GPS_Open_Close();
         }
 
         private void Clear_Log_button_Click(object sender, EventArgs e)
