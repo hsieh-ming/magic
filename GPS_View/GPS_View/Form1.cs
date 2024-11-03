@@ -5,15 +5,33 @@ namespace GPS_View
 {
     public partial class Form1 : Form
     {
-        UART_Driver UART_Driver = new UART_Driver();
         GPS_Driver GPS_Driver = new GPS_Driver();
         public Form1()
         {
             InitializeComponent();
-            UART_Driver.Read_Buffer += UART_Driver_Read_Buffer;
+            GPS_Driver.GPS_Message += GPS_Driver_GPS_LOG;
+            GPS_Driver.GPS_Message_View += GPS_Driver_GPS_Message_View;
         }
 
-        private void UART_Driver_Read_Buffer(object? sender, string e)
+        private void GPS_Driver_GPS_Message_View(object? sender, GPS_Item e)
+        {
+            BeginInvoke(new Action(() =>
+            {
+                GGA_UTC.Text = e.GGA_Data.UTCTime.ToString();
+                GGA_Latitude.Text = e.GGA_Data.Latitude.ToString();
+                GGA_Longitude.Text = e.GGA_Data.Longitude.ToString();
+                GGA_NSDirection.Text = e.GGA_Data.NSDirection;
+                GGA_EWDirection.Text = e.GGA_Data.EWDirection;
+                GGA_Quality.Text = e.GGA_Data.Quality.ToString();
+                GGA_SatelliteCount.Text = e.GGA_Data.SatelliteCount.ToString();
+                GGA_Altitude.Text = e.GGA_Data.Altitude.ToString();
+                GGA_GeoidalSeparation.Text = e.GGA_Data.GeoidalSeparation.ToString();
+                
+            }));
+            
+        }
+
+        private void GPS_Driver_GPS_LOG(object? sender, string e)
         {
             BeginInvoke(new Action(() =>
             {
@@ -30,8 +48,7 @@ namespace GPS_View
 
         private void Connect_button_Click(object sender, EventArgs e)
         {
-            GPS_Driver.Creat(Port_Name_comboBox.SelectedItem.ToString());
-            Connect_button.Text = GPS_Driver.GPS_Open_Close();
+            Connect_button.Text = GPS_Driver.GPS_Open_Close(Port_Name_comboBox.SelectedItem.ToString());
         }
 
         private void Clear_Log_button_Click(object sender, EventArgs e)

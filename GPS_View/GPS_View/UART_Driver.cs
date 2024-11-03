@@ -23,11 +23,14 @@ namespace GPS_View
         {
             try
             {
-                UART_Port.PortName = Port_Name;
-                UART_Port.BaudRate = BaudRate;
-                UART_Port.Parity = parity;
-                UART_Port.DataBits = DataBits;
-                UART_Port.StopBits = stopBits;
+                if(!UART_Port.IsOpen)
+                {
+                    UART_Port.PortName = Port_Name;
+                    UART_Port.BaudRate = BaudRate;
+                    UART_Port.Parity = parity;
+                    UART_Port.DataBits = DataBits;
+                    UART_Port.StopBits = stopBits;
+                } 
             }catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
