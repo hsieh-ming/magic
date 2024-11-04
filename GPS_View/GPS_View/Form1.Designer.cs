@@ -54,12 +54,55 @@
             label4 = new Label();
             label3 = new Label();
             tabPage2 = new TabPage();
+            GLL_ModeIndicator = new Label();
+            GLL_Latitude = new Label();
+            GGL_Longitude = new Label();
+            GLL_NSDirection = new Label();
+            GLL_EWDirection = new Label();
+            GLL_Status = new Label();
+            GLL_UTC = new Label();
+            label13 = new Label();
+            label14 = new Label();
+            label15 = new Label();
+            label16 = new Label();
+            label17 = new Label();
+            label18 = new Label();
+            label19 = new Label();
             tabPage3 = new TabPage();
             tabPage4 = new TabPage();
+            RMC_UTCDate = new Label();
+            RMC_Course = new Label();
+            RMC_GroundSpeed = new Label();
+            RMC_IsValid = new Label();
+            RMC_EWIndicator = new Label();
+            RMC_NSIndicator = new Label();
+            RMC_Longitude = new Label();
+            RMC_Latitude = new Label();
+            RMC_UTC = new Label();
+            label26 = new Label();
+            label25 = new Label();
+            label11 = new Label();
+            label12 = new Label();
+            label20 = new Label();
+            label21 = new Label();
+            label22 = new Label();
+            label23 = new Label();
+            label24 = new Label();
             tabPage5 = new TabPage();
+            VTG_MagneticCourse = new Label();
+            VTG_SpeedInKnots = new Label();
+            VTG_SpeedInKmh = new Label();
+            VTG_TrueCourse = new Label();
+            label29 = new Label();
+            label27 = new Label();
+            label30 = new Label();
+            label31 = new Label();
             groupBox1 = new GroupBox();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
+            tabPage2.SuspendLayout();
+            tabPage4.SuspendLayout();
+            tabPage5.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -317,6 +360,20 @@
             // 
             // tabPage2
             // 
+            tabPage2.Controls.Add(GLL_ModeIndicator);
+            tabPage2.Controls.Add(GLL_Latitude);
+            tabPage2.Controls.Add(GGL_Longitude);
+            tabPage2.Controls.Add(GLL_NSDirection);
+            tabPage2.Controls.Add(GLL_EWDirection);
+            tabPage2.Controls.Add(GLL_Status);
+            tabPage2.Controls.Add(GLL_UTC);
+            tabPage2.Controls.Add(label13);
+            tabPage2.Controls.Add(label14);
+            tabPage2.Controls.Add(label15);
+            tabPage2.Controls.Add(label16);
+            tabPage2.Controls.Add(label17);
+            tabPage2.Controls.Add(label18);
+            tabPage2.Controls.Add(label19);
             tabPage2.Location = new Point(4, 34);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
@@ -324,6 +381,132 @@
             tabPage2.TabIndex = 1;
             tabPage2.Text = "GLL";
             tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // GLL_ModeIndicator
+            // 
+            GLL_ModeIndicator.AutoSize = true;
+            GLL_ModeIndicator.Location = new Point(168, 279);
+            GLL_ModeIndicator.Name = "GLL_ModeIndicator";
+            GLL_ModeIndicator.Size = new Size(51, 25);
+            GLL_ModeIndicator.TabIndex = 19;
+            GLL_ModeIndicator.Text = "XXX";
+            // 
+            // GLL_Latitude
+            // 
+            GLL_Latitude.AutoSize = true;
+            GLL_Latitude.Location = new Point(168, 69);
+            GLL_Latitude.Name = "GLL_Latitude";
+            GLL_Latitude.Size = new Size(51, 25);
+            GLL_Latitude.TabIndex = 18;
+            GLL_Latitude.Text = "XXX";
+            // 
+            // GGL_Longitude
+            // 
+            GGL_Longitude.AutoSize = true;
+            GGL_Longitude.Location = new Point(168, 111);
+            GGL_Longitude.Name = "GGL_Longitude";
+            GGL_Longitude.Size = new Size(51, 25);
+            GGL_Longitude.TabIndex = 17;
+            GGL_Longitude.Text = "XXX";
+            // 
+            // GLL_NSDirection
+            // 
+            GLL_NSDirection.AutoSize = true;
+            GLL_NSDirection.Location = new Point(168, 153);
+            GLL_NSDirection.Name = "GLL_NSDirection";
+            GLL_NSDirection.Size = new Size(51, 25);
+            GLL_NSDirection.TabIndex = 16;
+            GLL_NSDirection.Text = "XXX";
+            // 
+            // GLL_EWDirection
+            // 
+            GLL_EWDirection.AutoSize = true;
+            GLL_EWDirection.Location = new Point(168, 195);
+            GLL_EWDirection.Name = "GLL_EWDirection";
+            GLL_EWDirection.Size = new Size(51, 25);
+            GLL_EWDirection.TabIndex = 15;
+            GLL_EWDirection.Text = "XXX";
+            // 
+            // GLL_Status
+            // 
+            GLL_Status.AutoSize = true;
+            GLL_Status.Location = new Point(168, 237);
+            GLL_Status.Name = "GLL_Status";
+            GLL_Status.Size = new Size(51, 25);
+            GLL_Status.TabIndex = 14;
+            GLL_Status.Text = "XXX";
+            // 
+            // GLL_UTC
+            // 
+            GLL_UTC.AutoSize = true;
+            GLL_UTC.Location = new Point(168, 27);
+            GLL_UTC.Name = "GLL_UTC";
+            GLL_UTC.Size = new Size(51, 25);
+            GLL_UTC.TabIndex = 13;
+            GLL_UTC.Text = "XXX";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(94, 279);
+            label13.Name = "label13";
+            label13.Size = new Size(57, 25);
+            label13.TabIndex = 9;
+            label13.Text = "模式:";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(94, 237);
+            label14.Name = "label14";
+            label14.Size = new Size(57, 25);
+            label14.TabIndex = 10;
+            label14.Text = "狀態:";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Location = new Point(61, 195);
+            label15.Name = "label15";
+            label15.Size = new Size(90, 25);
+            label15.TabIndex = 11;
+            label15.Text = "東/西 向:";
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Location = new Point(61, 153);
+            label16.Name = "label16";
+            label16.Size = new Size(90, 25);
+            label16.TabIndex = 12;
+            label16.Text = "南/北 向:";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(95, 27);
+            label17.Name = "label17";
+            label17.Size = new Size(56, 25);
+            label17.TabIndex = 4;
+            label17.Text = "UTC:";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(94, 111);
+            label18.Name = "label18";
+            label18.Size = new Size(57, 25);
+            label18.TabIndex = 5;
+            label18.Text = "經度:";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(94, 69);
+            label19.Name = "label19";
+            label19.Size = new Size(57, 25);
+            label19.TabIndex = 6;
+            label19.Text = "緯度:";
             // 
             // tabPage3
             // 
@@ -337,6 +520,24 @@
             // 
             // tabPage4
             // 
+            tabPage4.Controls.Add(RMC_UTCDate);
+            tabPage4.Controls.Add(RMC_Course);
+            tabPage4.Controls.Add(RMC_GroundSpeed);
+            tabPage4.Controls.Add(RMC_IsValid);
+            tabPage4.Controls.Add(RMC_EWIndicator);
+            tabPage4.Controls.Add(RMC_NSIndicator);
+            tabPage4.Controls.Add(RMC_Longitude);
+            tabPage4.Controls.Add(RMC_Latitude);
+            tabPage4.Controls.Add(RMC_UTC);
+            tabPage4.Controls.Add(label26);
+            tabPage4.Controls.Add(label25);
+            tabPage4.Controls.Add(label11);
+            tabPage4.Controls.Add(label12);
+            tabPage4.Controls.Add(label20);
+            tabPage4.Controls.Add(label21);
+            tabPage4.Controls.Add(label22);
+            tabPage4.Controls.Add(label23);
+            tabPage4.Controls.Add(label24);
             tabPage4.Location = new Point(4, 34);
             tabPage4.Name = "tabPage4";
             tabPage4.Padding = new Padding(3);
@@ -345,8 +546,178 @@
             tabPage4.Text = "RMC";
             tabPage4.UseVisualStyleBackColor = true;
             // 
+            // RMC_UTCDate
+            // 
+            RMC_UTCDate.AutoSize = true;
+            RMC_UTCDate.Location = new Point(141, 369);
+            RMC_UTCDate.Name = "RMC_UTCDate";
+            RMC_UTCDate.Size = new Size(51, 25);
+            RMC_UTCDate.TabIndex = 28;
+            RMC_UTCDate.Text = "XXX";
+            // 
+            // RMC_Course
+            // 
+            RMC_Course.AutoSize = true;
+            RMC_Course.Location = new Point(140, 325);
+            RMC_Course.Name = "RMC_Course";
+            RMC_Course.Size = new Size(51, 25);
+            RMC_Course.TabIndex = 27;
+            RMC_Course.Text = "XXX";
+            // 
+            // RMC_GroundSpeed
+            // 
+            RMC_GroundSpeed.AutoSize = true;
+            RMC_GroundSpeed.Location = new Point(140, 284);
+            RMC_GroundSpeed.Name = "RMC_GroundSpeed";
+            RMC_GroundSpeed.Size = new Size(51, 25);
+            RMC_GroundSpeed.TabIndex = 26;
+            RMC_GroundSpeed.Text = "XXX";
+            // 
+            // RMC_IsValid
+            // 
+            RMC_IsValid.AutoSize = true;
+            RMC_IsValid.Location = new Point(140, 240);
+            RMC_IsValid.Name = "RMC_IsValid";
+            RMC_IsValid.Size = new Size(51, 25);
+            RMC_IsValid.TabIndex = 25;
+            RMC_IsValid.Text = "XXX";
+            // 
+            // RMC_EWIndicator
+            // 
+            RMC_EWIndicator.AutoSize = true;
+            RMC_EWIndicator.Location = new Point(140, 198);
+            RMC_EWIndicator.Name = "RMC_EWIndicator";
+            RMC_EWIndicator.Size = new Size(51, 25);
+            RMC_EWIndicator.TabIndex = 24;
+            RMC_EWIndicator.Text = "XXX";
+            // 
+            // RMC_NSIndicator
+            // 
+            RMC_NSIndicator.AutoSize = true;
+            RMC_NSIndicator.Location = new Point(140, 156);
+            RMC_NSIndicator.Name = "RMC_NSIndicator";
+            RMC_NSIndicator.Size = new Size(51, 25);
+            RMC_NSIndicator.TabIndex = 23;
+            RMC_NSIndicator.Text = "XXX";
+            // 
+            // RMC_Longitude
+            // 
+            RMC_Longitude.AutoSize = true;
+            RMC_Longitude.Location = new Point(140, 114);
+            RMC_Longitude.Name = "RMC_Longitude";
+            RMC_Longitude.Size = new Size(51, 25);
+            RMC_Longitude.TabIndex = 22;
+            RMC_Longitude.Text = "XXX";
+            // 
+            // RMC_Latitude
+            // 
+            RMC_Latitude.AutoSize = true;
+            RMC_Latitude.Location = new Point(140, 72);
+            RMC_Latitude.Name = "RMC_Latitude";
+            RMC_Latitude.Size = new Size(51, 25);
+            RMC_Latitude.TabIndex = 21;
+            RMC_Latitude.Text = "XXX";
+            // 
+            // RMC_UTC
+            // 
+            RMC_UTC.AutoSize = true;
+            RMC_UTC.Location = new Point(140, 30);
+            RMC_UTC.Name = "RMC_UTC";
+            RMC_UTC.Size = new Size(51, 25);
+            RMC_UTC.TabIndex = 20;
+            RMC_UTC.Text = "XXX";
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Location = new Point(78, 369);
+            label26.Name = "label26";
+            label26.Size = new Size(57, 25);
+            label26.TabIndex = 16;
+            label26.Text = "日期:";
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Location = new Point(77, 325);
+            label25.Name = "label25";
+            label25.Size = new Size(57, 25);
+            label25.TabIndex = 16;
+            label25.Text = "航向:";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(37, 284);
+            label11.Name = "label11";
+            label11.Size = new Size(97, 25);
+            label11.TabIndex = 16;
+            label11.Text = "地面速度:";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(37, 240);
+            label12.Name = "label12";
+            label12.Size = new Size(97, 25);
+            label12.TabIndex = 17;
+            label12.Text = "定位狀態:";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Location = new Point(44, 198);
+            label20.Name = "label20";
+            label20.Size = new Size(90, 25);
+            label20.TabIndex = 18;
+            label20.Text = "東/西 向:";
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(44, 156);
+            label21.Name = "label21";
+            label21.Size = new Size(90, 25);
+            label21.TabIndex = 19;
+            label21.Text = "南/北 向:";
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Location = new Point(78, 30);
+            label22.Name = "label22";
+            label22.Size = new Size(56, 25);
+            label22.TabIndex = 13;
+            label22.Text = "UTC:";
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Location = new Point(77, 114);
+            label23.Name = "label23";
+            label23.Size = new Size(57, 25);
+            label23.TabIndex = 14;
+            label23.Text = "經度:";
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Location = new Point(77, 72);
+            label24.Name = "label24";
+            label24.Size = new Size(57, 25);
+            label24.TabIndex = 15;
+            label24.Text = "緯度:";
+            // 
             // tabPage5
             // 
+            tabPage5.Controls.Add(VTG_MagneticCourse);
+            tabPage5.Controls.Add(VTG_SpeedInKnots);
+            tabPage5.Controls.Add(VTG_SpeedInKmh);
+            tabPage5.Controls.Add(VTG_TrueCourse);
+            tabPage5.Controls.Add(label29);
+            tabPage5.Controls.Add(label27);
+            tabPage5.Controls.Add(label30);
+            tabPage5.Controls.Add(label31);
             tabPage5.Location = new Point(4, 34);
             tabPage5.Name = "tabPage5";
             tabPage5.Padding = new Padding(3);
@@ -354,6 +725,78 @@
             tabPage5.TabIndex = 4;
             tabPage5.Text = "VTG";
             tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // VTG_MagneticCourse
+            // 
+            VTG_MagneticCourse.AutoSize = true;
+            VTG_MagneticCourse.Location = new Point(183, 88);
+            VTG_MagneticCourse.Name = "VTG_MagneticCourse";
+            VTG_MagneticCourse.Size = new Size(51, 25);
+            VTG_MagneticCourse.TabIndex = 26;
+            VTG_MagneticCourse.Text = "XXX";
+            // 
+            // VTG_SpeedInKnots
+            // 
+            VTG_SpeedInKnots.AutoSize = true;
+            VTG_SpeedInKnots.Location = new Point(183, 130);
+            VTG_SpeedInKnots.Name = "VTG_SpeedInKnots";
+            VTG_SpeedInKnots.Size = new Size(51, 25);
+            VTG_SpeedInKnots.TabIndex = 25;
+            VTG_SpeedInKnots.Text = "XXX";
+            // 
+            // VTG_SpeedInKmh
+            // 
+            VTG_SpeedInKmh.AutoSize = true;
+            VTG_SpeedInKmh.Location = new Point(183, 174);
+            VTG_SpeedInKmh.Name = "VTG_SpeedInKmh";
+            VTG_SpeedInKmh.Size = new Size(51, 25);
+            VTG_SpeedInKmh.TabIndex = 24;
+            VTG_SpeedInKmh.Text = "XXX";
+            // 
+            // VTG_TrueCourse
+            // 
+            VTG_TrueCourse.AutoSize = true;
+            VTG_TrueCourse.Location = new Point(183, 46);
+            VTG_TrueCourse.Name = "VTG_TrueCourse";
+            VTG_TrueCourse.Size = new Size(51, 25);
+            VTG_TrueCourse.TabIndex = 23;
+            VTG_TrueCourse.Text = "XXX";
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Location = new Point(120, 46);
+            label29.Name = "label29";
+            label29.Size = new Size(57, 25);
+            label29.TabIndex = 20;
+            label29.Text = "航向:";
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Location = new Point(20, 174);
+            label27.Name = "label27";
+            label27.Size = new Size(157, 25);
+            label27.TabIndex = 21;
+            label27.Text = "速度(公里/小時):";
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.Location = new Point(88, 130);
+            label30.Name = "label30";
+            label30.Size = new Size(89, 25);
+            label30.TabIndex = 21;
+            label30.Text = "速度(節):";
+            // 
+            // label31
+            // 
+            label31.AutoSize = true;
+            label31.Location = new Point(120, 88);
+            label31.Name = "label31";
+            label31.Size = new Size(57, 25);
+            label31.TabIndex = 22;
+            label31.Text = "航向:";
             // 
             // groupBox1
             // 
@@ -383,6 +826,12 @@
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
+            tabPage2.ResumeLayout(false);
+            tabPage2.PerformLayout();
+            tabPage4.ResumeLayout(false);
+            tabPage4.PerformLayout();
+            tabPage5.ResumeLayout(false);
+            tabPage5.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -419,5 +868,45 @@
         private Label GGA_NSDirection;
         private Label GGA_Longitude;
         private Label GGA_Latitude;
+        private Label label13;
+        private Label label14;
+        private Label label15;
+        private Label label16;
+        private Label label17;
+        private Label label18;
+        private Label label19;
+        private Label label11;
+        private Label label12;
+        private Label label20;
+        private Label label21;
+        private Label label22;
+        private Label label23;
+        private Label label24;
+        private Label label25;
+        private Label label26;
+        private Label label29;
+        private Label label30;
+        private Label label31;
+        private Label label27;
+        private Label GLL_ModeIndicator;
+        private Label GLL_Latitude;
+        private Label GGL_Longitude;
+        private Label GLL_NSDirection;
+        private Label GLL_EWDirection;
+        private Label GLL_Status;
+        private Label GLL_UTC;
+        private Label RMC_UTCDate;
+        private Label RMC_Course;
+        private Label RMC_GroundSpeed;
+        private Label RMC_IsValid;
+        private Label RMC_EWIndicator;
+        private Label RMC_NSIndicator;
+        private Label RMC_Longitude;
+        private Label RMC_Latitude;
+        private Label RMC_UTC;
+        private Label VTG_MagneticCourse;
+        private Label VTG_SpeedInKnots;
+        private Label VTG_SpeedInKmh;
+        private Label VTG_TrueCourse;
     }
 }

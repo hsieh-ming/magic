@@ -26,6 +26,11 @@ namespace GPS_View
                 GGA_SatelliteCount.Text = e.GGA_Data.SatelliteCount.ToString();
                 GGA_Altitude.Text = e.GGA_Data.Altitude.ToString();
                 GGA_GeoidalSeparation.Text = e.GGA_Data.GeoidalSeparation.ToString();
+
+                VTG_TrueCourse.Text = e.VTG_Data.TrueCourse.ToString();
+                VTG_MagneticCourse.Text =e.VTG_Data.MagneticCourse.ToString();
+                VTG_SpeedInKnots.Text = e.VTG_Data.SpeedInKmh.ToString();
+                VTG_SpeedInKmh.Text = e.VTG_Data.SpeedInKmh.ToString();
                 
             }));
             
