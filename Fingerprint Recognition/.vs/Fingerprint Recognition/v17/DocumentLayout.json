@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{12516AF7-61D4-40AF-A8E0-FA2CB6E26A26}|Fingerprint Recognition\\Fingerprint Recognition.csproj|c:\\users\\mfg-31\\documents\\magic\\fingerprint recognition\\fingerprint recognition\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{12516AF7-61D4-40AF-A8E0-FA2CB6E26A26}|Fingerprint Recognition\\Fingerprint Recognition.csproj|solutionrelative:fingerprint recognition\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12516AF7-61D4-40AF-A8E0-FA2CB6E26A26}|Fingerprint Recognition\\Fingerprint Recognition.csproj|c:\\users\\mfg-31\\documents\\magic\\fingerprint recognition\\fingerprint recognition\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12516AF7-61D4-40AF-A8E0-FA2CB6E26A26}|Fingerprint Recognition\\Fingerprint Recognition.csproj|solutionrelative:fingerprint recognition\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,6 +27,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\MFG-31\\Documents\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\Form1.cs",
+              "RelativeDocumentMoniker": "Fingerprint Recognition\\Form1.cs",
+              "ToolTip": "C:\\Users\\MFG-31\\Documents\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\Form1.cs",
+              "RelativeToolTip": "Fingerprint Recognition\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T06:14:55.723Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

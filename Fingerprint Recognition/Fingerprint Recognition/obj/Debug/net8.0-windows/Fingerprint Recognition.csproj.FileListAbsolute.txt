@@ -1,0 +1,17 @@
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\bin\Debug\net8.0-windows\Fingerprint Recognition.exe
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\bin\Debug\net8.0-windows\Fingerprint Recognition.deps.json
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\bin\Debug\net8.0-windows\Fingerprint Recognition.runtimeconfig.json
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\bin\Debug\net8.0-windows\Fingerprint Recognition.dll
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\bin\Debug\net8.0-windows\Fingerprint Recognition.pdb
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\obj\Debug\net8.0-windows\Fingerprint_Recognition.Form1.resources
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\obj\Debug\net8.0-windows\Fingerprint Recognition.csproj.GenerateResource.cache
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\obj\Debug\net8.0-windows\Fingerprint Recognition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\obj\Debug\net8.0-windows\Fingerprint Recognition.AssemblyInfoInputs.cache
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\obj\Debug\net8.0-windows\Fingerprint Recognition.AssemblyInfo.cs
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\obj\Debug\net8.0-windows\Fingerprint Recognition.csproj.CoreCompileInputs.cache
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\obj\Debug\net8.0-windows\Fingerprint Recognition.sourcelink.json
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\obj\Debug\net8.0-windows\Fingerprint Recognition.dll
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\obj\Debug\net8.0-windows\refint\Fingerprint Recognition.dll
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\obj\Debug\net8.0-windows\Fingerprint Recognition.pdb
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\obj\Debug\net8.0-windows\Fingerprint Recognition.genruntimeconfig.cache
+C:\Users\MFG-31\Documents\magic\Fingerprint Recognition\Fingerprint Recognition\obj\Debug\net8.0-windows\ref\Fingerprint Recognition.dll
