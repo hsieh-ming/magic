@@ -77,7 +77,7 @@ namespace GPS_View
                 return;
             }
             Read_Flag = true;
-            Task.Run(() => {
+            Task.Run(async () => {
                 while (Read_Flag) {
                     if (!UART_Port.IsOpen)
                     {
@@ -85,7 +85,7 @@ namespace GPS_View
                     }
                     try
                     {
-                        if(UART_Port.BytesToRead > 0)
+                        if (UART_Port.BytesToRead > 0)
                         {
                             string buffer = UART_Port.ReadLine();
                             if (!string.IsNullOrEmpty(buffer))
@@ -93,6 +93,7 @@ namespace GPS_View
                                 Read_Buffer?.Invoke(this, buffer);
                             }
                         }
+                        await Task.Delay(20);
                     }
                     catch (TimeoutException)
                     {
