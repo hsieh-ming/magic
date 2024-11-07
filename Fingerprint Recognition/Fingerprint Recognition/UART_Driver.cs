@@ -17,7 +17,7 @@ namespace GPS_View
         public event EventHandler<string> Read_Buffer;
         public UART_Driver()
         {
-
+            
         }
         public void Creat(string Port_Name,int BaudRate = 9600,Parity parity = Parity.None,int DataBits = 8,StopBits stopBits = StopBits.One)
         {

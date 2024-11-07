@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\allen\\OneDrive\\文件\\Sourcetree\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\Fingerprint Recognition.csproj": {}
+    "C:\\Users\\MFG-31\\Documents\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\Fingerprint Recognition.csproj": {}
   },
   "projects": {
-    "C:\\Users\\allen\\OneDrive\\文件\\Sourcetree\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\Fingerprint Recognition.csproj": {
+    "C:\\Users\\MFG-31\\Documents\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\Fingerprint Recognition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\allen\\OneDrive\\文件\\Sourcetree\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\Fingerprint Recognition.csproj",
+        "projectUniqueName": "C:\\Users\\MFG-31\\Documents\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\Fingerprint Recognition.csproj",
         "projectName": "Fingerprint Recognition",
-        "projectPath": "C:\\Users\\allen\\OneDrive\\文件\\Sourcetree\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\Fingerprint Recognition.csproj",
-        "packagesPath": "C:\\Users\\allen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\allen\\OneDrive\\文件\\Sourcetree\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\obj\\",
+        "projectPath": "C:\\Users\\MFG-31\\Documents\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\Fingerprint Recognition.csproj",
+        "packagesPath": "C:\\Users\\MFG-31\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MFG-31\\Documents\\magic\\Fingerprint Recognition\\Fingerprint Recognition\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\allen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MFG-31\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -74,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
