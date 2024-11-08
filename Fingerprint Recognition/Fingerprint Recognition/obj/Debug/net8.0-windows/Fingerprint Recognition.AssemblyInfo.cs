@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fingerprint Recognition")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95c33bcef09fa83a8b7f85302927d42fd243e4be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe010c7c5589a4b01d647764752eb714e2b064fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fingerprint Recognition")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fingerprint Recognition")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

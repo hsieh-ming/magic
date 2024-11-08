@@ -17,7 +17,7 @@ namespace GPS_View
         public event EventHandler<string> Read_Buffer;
         public UART_Driver()
         {
-            
+
         }
         public void Creat(string Port_Name,int BaudRate = 9600,Parity parity = Parity.None,int DataBits = 8,StopBits stopBits = StopBits.One)
         {
@@ -30,6 +30,8 @@ namespace GPS_View
                     UART_Port.Parity = parity;
                     UART_Port.DataBits = DataBits;
                     UART_Port.StopBits = stopBits;
+                    UART_Port.ReadTimeout = 200;
+                    UART_Port.WriteTimeout = 200;
                 } 
             }catch(Exception ex)
             {
@@ -77,7 +79,7 @@ namespace GPS_View
                 return;
             }
             Read_Flag = true;
-            Task.Run(() => {
+            Task.Run(async () => {
                 while (Read_Flag) {
                     if (!UART_Port.IsOpen)
                     {
@@ -85,7 +87,7 @@ namespace GPS_View
                     }
                     try
                     {
-                        if(UART_Port.BytesToRead > 0)
+                        if (UART_Port.BytesToRead > 0)
                         {
                             string buffer = UART_Port.ReadLine();
                             if (!string.IsNullOrEmpty(buffer))
@@ -93,6 +95,7 @@ namespace GPS_View
                                 Read_Buffer?.Invoke(this, buffer);
                             }
                         }
+                        await Task.Delay(20);
                     }
                     catch (TimeoutException)
                     {
