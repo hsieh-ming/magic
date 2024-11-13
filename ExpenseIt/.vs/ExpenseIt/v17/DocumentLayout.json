@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MFG-31\\Documents\\magic\\ExpenseIt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{597D3713-2B79-4D8A-A695-1B202DA4E7B1}|ExpenseIt\\ExpenseIt.csproj|c:\\users\\mfg-31\\documents\\magic\\expenseit\\expenseit\\expenseithome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{597D3713-2B79-4D8A-A695-1B202DA4E7B1}|ExpenseIt\\ExpenseIt.csproj|solutionrelative:expenseit\\expenseithome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597D3713-2B79-4D8A-A695-1B202DA4E7B1}|ExpenseIt\\ExpenseIt.csproj|c:\\users\\mfg-31\\documents\\magic\\expenseit\\expenseit\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{597D3713-2B79-4D8A-A695-1B202DA4E7B1}|ExpenseIt\\ExpenseIt.csproj|solutionrelative:expenseit\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597D3713-2B79-4D8A-A695-1B202DA4E7B1}|ExpenseIt\\ExpenseIt.csproj|c:\\users\\mfg-31\\documents\\magic\\expenseit\\expenseit\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{597D3713-2B79-4D8A-A695-1B202DA4E7B1}|ExpenseIt\\ExpenseIt.csproj|solutionrelative:expenseit\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExpenseItHome.xaml",
+              "DocumentMoniker": "C:\\Users\\MFG-31\\Documents\\magic\\ExpenseIt\\ExpenseIt\\ExpenseItHome.xaml",
+              "RelativeDocumentMoniker": "ExpenseIt\\ExpenseItHome.xaml",
+              "ToolTip": "C:\\Users\\MFG-31\\Documents\\magic\\ExpenseIt\\ExpenseIt\\ExpenseItHome.xaml",
+              "RelativeToolTip": "ExpenseIt\\ExpenseItHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-13T07:57:04.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\MFG-31\\Documents\\magic\\ExpenseIt\\ExpenseIt\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ExpenseIt\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\MFG-31\\Documents\\magic\\ExpenseIt\\ExpenseIt\\MainWindow.xaml",
+              "RelativeToolTip": "ExpenseIt\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-13T07:56:09.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\MFG-31\\Documents\\magic\\ExpenseIt\\ExpenseIt\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ExpenseIt\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\MFG-31\\Documents\\magic\\ExpenseIt\\ExpenseIt\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ExpenseIt\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T07:56:02.955Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
